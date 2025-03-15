@@ -9,7 +9,7 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Muhammad Asman | Full Stack Developer From Yogyakarta, Indonesia.';
+const title = 'Muhammad Asman | Software Engineer From Yogyakarta, Indonesia.';
 const description =
   'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
 const url = 'https://sagarshah.dev';
