@@ -41,18 +41,18 @@ const AboutMeSection = () => {
               withUnderline
               href={EXTERNAL_LINKS.FIGMA}
             >
-              self-proclaimed designer
+              Software Engineer
             </Link>{' '}
-            who specializes in full stack development (React.js & Node.js). I am
+            who specializes in full stack development (Front End & Back End). I am
             enthusiastic about bringing the technical and visual aspects of
             digital products to life. User experience, pixel perfect design, and
             writing clear, readable, highly performant code matters to me.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
+            I began my journey as a web developer in 2021, and since then,
             I&apos;ve continued to grow and evolve as a developer, taking on new
             challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
+            in my early thirties, 5 years after starting my web development
             journey, I&apos;m building cutting-edge web applications using
             modern technologies such as Next.js, TypeScript, Nestjs,
             Tailwindcss, Supabase and much more.
@@ -63,16 +63,16 @@ const AboutMeSection = () => {
           </Typography>
           <Typography>
             When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
+            hovering around on instagramm, witnessing the
             journey of early startups or enjoying some free time. You can follow
             me on{' '}
             <Link
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
+              href={EXTERNAL_LINKS.INSTAGRAM}
             >
-              Twitter
+              Instagram
             </Link>{' '}
             where I share tech-related bites and build in public, or you can
             follow me on{' '}
@@ -96,7 +96,6 @@ const AboutMeSection = () => {
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
             </ul>
           </div>
           <Typography>

@@ -31,11 +31,11 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              I&apos;m I am an enthusiastic and highly motivated Computer Science graduate specializing in Fullstack Development and Mobile
+              Application Development using Flutter. With a solid foundation in both front-end and back-end technologies, I have developed
+              robust, scalable, and user-friendly applications. I am passionate about problem-solving and continuously learning new tools
+              and technologies to stay current in the fast-evolving tech landscape. I am eager to bring my technical skills, attention to detail,
+              and dedication to a dynamic development team.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

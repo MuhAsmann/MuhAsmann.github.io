@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, Instagram, Link, Linkedin } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
@@ -42,12 +42,14 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
+  GITHUB: 'https://github.com/MuhAsmann',
+  GITHUB_REPO: 'https://github.com/MuhAsmann',
+  TWITTER: 'https://twitter.com/',
+  FIGMA: 'https://www.figma.com/',
   FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
+    '',
+  INSTAGRAM: 'https://www.instagram.com/muh_asmann/',
+  LINKEDIN: 'https://www.linkedin.com/in/muh-asmann/',
 };
 
 export const NAV_LINKS = [
@@ -75,12 +77,12 @@ export const SOCIAL_LINKS = [
     url: 'https://github.com/MuhAsmann',
   },
   {
-    icon: Twitter,
-    url: '',
+    icon: Instagram,
+    url: 'https://www.instagram.com/muh_asmann/',
   },
   {
-    icon: Figma,
-    url: '',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/muh-asmann/',
   },
 ];
 
