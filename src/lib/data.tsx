@@ -203,9 +203,9 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoDotnpixel,
     darkModeLogo: LogoDotnpixelLight,
     logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
+    position: 'Software Engineer',
+    startDate: new Date(2023, 10),
+    endDate: new Date(2024, 8),
     summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
