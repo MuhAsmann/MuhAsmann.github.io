@@ -22,6 +22,12 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoRefactory from '/public/images/logos/logo-refactory.svg';
 import LogoCDI from '/public/images/logos/logo-cdi.svg';
 import LogoGanesha from '/public/images/logos/logo-ganesha.svg';
+import LogoGo from '/public/images/logos/logo-go.svg';
+import LogoPython from '/public/images/logos/logo-python.svg';
+import LogoDart from '/public/images/logos/logo-dart.svg';
+import LogoC from '/public/images/logos/logo-c#.svg';
+import LogoDotnet from '/public/images/logos/logo-dotnet.svg';
+import LogoVue from '/public/images/logos/logo-vue.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -102,32 +108,32 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
   {
     label: 'Go',
-    logo: LogoTypescript,
+    logo: LogoGo,
     url: 'https://golang.org/',
   },
   {
     label: 'Python',
-    logo: LogoTypescript,
+    logo: LogoPython,
     url: 'https://www.python.org/',
   },
   {
     label: 'Dart',
-    logo: LogoTypescript,
+    logo: LogoDart,
     url: 'https://dart.dev/',
   },
   {
     label: 'C#',
-    logo: LogoTypescript,
+    logo: LogoC,
     url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
   },
   {
     label: '.NET',
-    logo: LogoTypescript,
+    logo: LogoDotnet,
     url: 'https://dotnet.microsoft.com/',
   },
   {
     label: 'Vue.js',
-    logo: LogoTypescript,
+    logo: LogoVue,
     url: 'https://vuejs.org/',
   },
   {
