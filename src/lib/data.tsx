@@ -101,6 +101,41 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.typescriptlang.org/',
   },
   {
+    label: 'Go',
+    logo: LogoTypescript,
+    url: 'https://golang.org/',
+  },
+  {
+    label: 'Python',
+    logo: LogoTypescript,
+    url: 'https://www.python.org/',
+  },
+  {
+    label: 'Dart',
+    logo: LogoTypescript,
+    url: 'https://dart.dev/',
+  },
+  {
+    label: 'C#',
+    logo: LogoTypescript,
+    url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+  },
+  {
+    label: '.NET',
+    logo: LogoTypescript,
+    url: 'https://dotnet.microsoft.com/',
+  },
+  {
+    label: 'Vue.js',
+    logo: LogoTypescript,
+    url: 'https://vuejs.org/',
+  },
+  {
+    label: 'Svelte',
+    logo: LogoTypescript,
+    url: 'https://svelte.dev/',
+  },
+  {
     label: 'React',
     logo: LogoReact,
     url: 'https://react.dev/',
@@ -173,6 +208,36 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'Robot Framework',
+    logo: LogoPostgreSQL,
+    url: 'https://robotframework.org/',
+  },
+  {
+    label: 'Laravel',
+    logo: LogoPostgreSQL,
+    url: 'https://laravel.com/',
+  },
+  {
+    label: 'Supabase',
+    logo: LogoPostgreSQL,
+    url: 'https://supabase.io/',
+  },
+  {
+    label: 'MySql',
+    logo: LogoPostgreSQL,
+    url: 'https://www.mysql.com/',
+  },
+  {
+    label: 'Odoo',
+    logo: LogoPostgreSQL,
+    url: 'https://www.odoo.com/',
+  },
+  {
+    label: 'Flutter',
+    logo: LogoPostgreSQL,
+    url: 'https://flutter.dev/',
+  }
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
