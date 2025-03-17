@@ -22,6 +22,16 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoRefactory from '/public/images/logos/logo-refactory.svg';
 import LogoCDI from '/public/images/logos/logo-cdi.svg';
 import LogoGanesha from '/public/images/logos/logo-ganesha.svg';
+import LogoGo from '/public/images/logos/logo-go.svg';
+import LogoPython from '/public/images/logos/logo-python.svg';
+import LogoDart from '/public/images/logos/logo-dart.svg';
+import LogoC from '/public/images/logos/logo-c#.svg';
+import LogoDotnet from '/public/images/logos/logo-dotnet.svg';
+import LogoVue from '/public/images/logos/logo-vue.svg';
+import LogoSvelte from '/public/images/logos/logo-svelte.svg';
+import LogoRobotFramework from '/public/images/logos/logo-robotframework.svg';
+import LogoLaravel from '/public/images/logos/logo-laravel.svg';
+import LogoSupabase from '/public/images/logos/logo-supabase.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -101,6 +111,41 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://www.typescriptlang.org/',
   },
   {
+    label: 'Go',
+    logo: LogoGo,
+    url: 'https://golang.org/',
+  },
+  {
+    label: 'Python',
+    logo: LogoPython,
+    url: 'https://www.python.org/',
+  },
+  {
+    label: 'Dart',
+    logo: LogoDart,
+    url: 'https://dart.dev/',
+  },
+  {
+    label: 'C#',
+    logo: LogoC,
+    url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+  },
+  {
+    label: '.NET',
+    logo: LogoDotnet,
+    url: 'https://dotnet.microsoft.com/',
+  },
+  {
+    label: 'Vue.js',
+    logo: LogoVue,
+    url: 'https://vuejs.org/',
+  },
+  {
+    label: 'Svelte',
+    logo: LogoSvelte,
+    url: 'https://svelte.dev/',
+  },
+  {
     label: 'React',
     logo: LogoReact,
     url: 'https://react.dev/',
@@ -173,6 +218,41 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'Robot Framework',
+    logo: LogoRobotFramework,
+    url: 'https://robotframework.org/',
+  },
+  {
+    label: 'Laravel',
+    logo: LogoLaravel,
+    url: 'https://laravel.com/',
+  },
+  {
+    label: 'Supabase',
+    logo: LogoSupabase,
+    url: 'https://supabase.io/',
+  },
+  {
+    label: 'MySql',
+    logo: LogoPostgreSQL,
+    url: 'https://www.mysql.com/',
+  },
+  {
+    label: 'Odoo',
+    logo: LogoPostgreSQL,
+    url: 'https://www.odoo.com/',
+  },
+  {
+    label: 'Flutter',
+    logo: LogoPostgreSQL,
+    url: 'https://flutter.dev/',
+  },
+  {
+    label: 'Postman',
+    logo: LogoPostgreSQL,
+    url: 'https://www.postman.com/',
+  }
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
