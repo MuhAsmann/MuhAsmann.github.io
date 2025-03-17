@@ -25,13 +25,17 @@ import LogoGanesha from '/public/images/logos/logo-ganesha.svg';
 import LogoGo from '/public/images/logos/logo-go.svg';
 import LogoPython from '/public/images/logos/logo-python.svg';
 import LogoDart from '/public/images/logos/logo-dart.svg';
-import LogoC from '/public/images/logos/logo-c#.svg';
+import LogoC from '/public/images/logos/logo-c.svg';
 import LogoDotnet from '/public/images/logos/logo-dotnet.svg';
 import LogoVue from '/public/images/logos/logo-vue.svg';
 import LogoSvelte from '/public/images/logos/logo-svelte.svg';
 import LogoRobotFramework from '/public/images/logos/logo-robotframework.svg';
 import LogoLaravel from '/public/images/logos/logo-laravel.svg';
 import LogoSupabase from '/public/images/logos/logo-supabase.svg';
+import LogoFlutter from '/public/images/logos/logo-flutter.svg';
+import LogoMySql from '/public/images/logos/logo-mysql.svg';
+import LogoOdoo from '/public/images/logos/logo-odoo.svg';
+import LogoPostman from '/public/images/logos/logo-postman.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -235,22 +239,22 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
   {
     label: 'MySql',
-    logo: LogoPostgreSQL,
+    logo: LogoMySql,
     url: 'https://www.mysql.com/',
   },
   {
     label: 'Odoo',
-    logo: LogoPostgreSQL,
+    logo: LogoOdoo,
     url: 'https://www.odoo.com/',
   },
   {
     label: 'Flutter',
-    logo: LogoPostgreSQL,
+    logo: LogoFlutter,
     url: 'https://flutter.dev/',
   },
   {
     label: 'Postman',
-    logo: LogoPostgreSQL,
+    logo: LogoPostman,
     url: 'https://www.postman.com/',
   }
 ];
