@@ -19,6 +19,9 @@ import LogoCypress from '/public/images/logos/icon-cypress.svg';
 import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoRefactory from '/public/images/logos/logo-refactory.svg';
+import LogoCDI from '/public/images/logos/logo-cdi.svg';
+import LogoGanesha from '/public/images/logos/logo-ganesha.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -174,39 +177,43 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    logo: LogoGanesha,
+    logoAlt: 'Ganesha Operation Logo',
+    position: 'Staf Pusat Backend Developer',
+    startDate: new Date(2024, 11),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Worked as a backend developer.',
+      'Worked with a variety of technologies, including Node.js, Nest.js, PostgreSQL, and others.',
+      'Make a REST API, GRPC for the Ganesha Operation website and app.',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: LogoCDI,
+    darkModeLogo: LogoCDI,
+    logoAlt: 'CDI Logo',
+    position: 'Front End Developer Freelancer',
+    startDate: new Date(2024, 9),
+    endDate: new Date(2024, 10),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'Worked as a front end developer.',
+      'Worked with a variety of technologies, including React, Typescript, Tailwindcss, Mui, Storybook, Cypress, and others.',
+      'Worked on a project called "Dinkes Dashboard Kematian".',
     ],
   },
   {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
+    logo: LogoRefactory,
+    darkModeLogo: LogoRefactory,
+    logoAlt: 'Refactory Logo',
     position: 'Software Engineer',
-    startDate: new Date(2023, 10),
-    endDate: new Date(2024, 8),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
+    startDate: new Date(2023, 11),
+    endDate: new Date(2024, 9),
+    summary: [
+      'Worked as a full stack developer (Frontend / Backend).',
+      'Mobile app development using Flutter.',
+      'Odoo ERP customization.',
+      'QA Testing And QA Automation.',
+    ],
   },
 ];
 
