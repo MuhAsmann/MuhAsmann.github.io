@@ -303,7 +303,102 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Refactory - Hanoman Mobile Developer',
+    name: 'Refactory - GT Virtuz - Odoo Developer',
+    description:
+      'A platform for managing the GT Virtuz ERP website, managing Procurement data, and managing company data.',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Odoo',
+      'Python',
+    ],
+  },
+  {
+    name: 'Refactory - Portal Vendor MPM - Fullstack Developer',
+    description:
+      'A platform for managing the Portal Vendor MPM website, such as managing data vendor, managing Procurement data, and managing company data.',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Vue.js',
+      '.Net',
+      'Microservices',
+      'PostgreSQL',
+    ],
+  },
+  {
+    name: 'Refactory - Mytok MPM HRIS - Mobile Developer',
+    description:
+      'A mobile application for managing the Mytok mobile, which is a platform for managing the company\'s internal affairs.',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Flutter',
+      'Bloc',
+    ],
+  },
+  {
+    name: 'Refactory - Mytok MPM HRIS - QA Engineer',
+    description:
+    'A platform for managing the Mytok mobile, such as managing employee data, managing project data, and managing company data.',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Robot Framework',
+      'Postman',
+    ],
+  },
+  {
+    name: 'Refactory - Sev 2 - Fullstack Developer',
+    description:
+      'A platform for managing the Sev2 website and mobile, such as managing task data and project',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Supabase',
+      'Go',
+      'Flutter',
+      'PostgreSQL'
+    ],
+  },
+  {
+    name: 'Refactory - BSI Ktb Portal - Backend Developer',
+    description:
+      'A platform for managing the BSI Ktb Portal website, such as managing data vendor, managing Procurement data, and managing company data.',
+    url: 'https://www.bsi.id/',
+    previewImage: ProjectWingie,
+    technologies: [
+      '.NET',
+      'C#',
+      'Sql Server',
+    ],
+  },
+  {
+    name: 'Refactory - Tempo.co - Fullstack Developer',
+    description:
+      'A platform for managing the Tempo.co website, such as managing articles, managing user data, and managing company data.',
+    url: 'https://www.tempo.co/',
+    previewImage: ProjectWingie,
+    technologies: [
+      'Vue.js',
+      'Go',
+      'PostgreSQL',
+    ],
+  },
+  {
+    name: 'Refactory - FrontDesk - Fullstack Developer',
+    description:
+      'A platform for managing the Events, such as managing employee data, managing project data, and managing company data.',
+    url: '#',
+    previewImage: ProjectWingie,
+    technologies: [
+      'Vue.js',
+      'Go',
+      'PostgreSQL',
+    ],
+  },
+  {
+    name: 'Refactory - Hanoman - Mobile Developer',
     description:
       'A mobile application for managing the Hanoman web and app mobile, which is a platform for managing the company\'s internal affairs.',
     url: '#',
@@ -315,7 +410,7 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Refactory - MPM BTL Finance',
+    name: 'Refactory - MPM BTL Finance - Frontend Developer',
     description:
       'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
     url: '#',
