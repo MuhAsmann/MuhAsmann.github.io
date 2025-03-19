@@ -309,8 +309,11 @@ export const PROJECTS: ProjectDetails[] = [
     url: '#',
     previewImage: ProjectFiskil,
     technologies: [
-      'Odoo',
-      'Python',
+      'GO Lang',
+      'Nest JS',
+      'PostgreSQL',
+      'REST API',
+      'GRPC',
     ],
   },
   {
