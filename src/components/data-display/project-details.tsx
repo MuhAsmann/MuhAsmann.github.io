@@ -32,11 +32,14 @@ const ProjectDetails = ({
         )}
       >
         <Link noCustomization href={url} externalLink>
+        {/* TODO: Image can be updated */}
           <Image
-            src={previewImage}
+            src={`https://picsum.photos/969/727`}
             alt={`${name} preview`}
             className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
+            width={969}
+            height={727}
           />
         </Link>
       </div>
