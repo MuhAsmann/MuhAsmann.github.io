@@ -459,21 +459,21 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
+    personName: 'Faiz Abidin',
+    personAvatar: AvatarDummy,
+    title: 'Founder - JokoJoki',
     testimonial:
       'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
   },
   {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
+    personName: 'Muhammad Rosyad',
+    personAvatar: AvatarDummy,
+    title: 'Founder - JokoJoki',
     testimonial:
       'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
   },
   {
-    personName: 'Joe Matkin',
+    personName: 'Alaikal Fajri',
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
