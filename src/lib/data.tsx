@@ -303,6 +303,28 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: 'Ganseha Operation - Back End Developer',
+    description:
+      'Make Api Rest or GRPc for Ganseha Operation website and app',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'Odoo',
+      'Python',
+    ],
+  },
+  {
+    name: 'Calestium Digital - Dashboard Satu Sehat - Front End Developer',
+    description:
+    'A platform for managing the Dashboard Satu Sehat website, such as managing death data, with chart',
+    url: '#',
+    previewImage: ProjectFiskil,
+    technologies: [
+      'React',
+      'Postman',
+    ],
+  },
+  {
     name: 'Refactory - GT Virtuz - Odoo Developer',
     description:
       'A platform for managing the GT Virtuz ERP website, managing Procurement data, and managing company data.',
