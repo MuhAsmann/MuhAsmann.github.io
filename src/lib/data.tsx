@@ -463,7 +463,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: 'Founder - JokoJoki',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend asman and will rehire in the future for Frontend development.',
   },
   {
     personName: 'Muhammad Rosyad',
@@ -477,6 +477,13 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Asman was extremely easy and pleasant to work with and he truly cares about the project being a success. Asman has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+  },
+  {
+    personName: 'Muisma',
+    personAvatar: AvatarDummy,
+    title: 'Freelancer',
+    testimonial:
+      'Asman is a great developer. He is very professional and has a great work ethic. He is very knowledgeable and has a great understanding of the project requirements. I would highly recommend him to anyone looking for a great developer.',
   },
 ];
