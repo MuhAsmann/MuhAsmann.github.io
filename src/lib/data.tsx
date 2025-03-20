@@ -251,7 +251,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: LogoGanesha,
     logoAlt: 'Ganesha Operation Logo',
     position: 'Staf Pusat Backend Developer',
-    startDate: new Date(2024, 11),
+    startDate: new Date(2024, 10),
     currentlyWorkHere: true,
     summary: [
       'Worked as a backend developer.',
@@ -264,8 +264,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoCDI,
     logoAlt: 'CDI Logo',
     position: 'Front End Developer Freelancer',
-    startDate: new Date(2024, 9),
-    endDate: new Date(2024, 10),
+    startDate: new Date(2024, 8),
+    endDate: new Date(2024, 9),
     summary: [
       'Worked as a front end developer.',
       'Worked with a variety of technologies, including React, Typescript, Tailwindcss, Mui, Storybook, Cypress, and others.',
@@ -277,8 +277,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoRefactory,
     logoAlt: 'Refactory Logo',
     position: 'Software Engineer',
-    startDate: new Date(2023, 11),
-    endDate: new Date(2024, 9),
+    startDate: new Date(2023, 10),
+    endDate: new Date(2024, 8),
     summary: [
       'Worked as a full stack developer (Frontend / Backend).',
       'Mobile app development using Flutter.',
