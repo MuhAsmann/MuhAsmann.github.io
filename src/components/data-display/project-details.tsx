@@ -40,6 +40,7 @@ const ProjectDetails = ({
             style={{ objectFit: 'cover' }}
             width={969}
             height={727}
+            // previewImage
           />
         </Link>
       </div>

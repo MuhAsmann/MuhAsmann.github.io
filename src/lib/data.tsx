@@ -307,7 +307,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'Make Api Rest or GRPc for Ganseha Operation website and app',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'GO Lang',
       'Nest JS',
@@ -321,7 +321,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
     'A platform for managing the Dashboard Satu Sehat website, such as managing death data, with chart',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'React',
       'Postman',
@@ -332,7 +332,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the GT Virtuz ERP website, managing Procurement data, and managing company data.',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Odoo',
       'Python',
@@ -343,7 +343,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the Portal Vendor MPM website, such as managing data vendor, managing Procurement data, and managing company data.',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Vue.js',
       '.Net',
@@ -356,7 +356,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A mobile application for managing the Mytok mobile, which is a platform for managing the company\'s internal affairs.',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Flutter',
       'Bloc',
@@ -367,7 +367,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
     'A platform for managing the Mytok mobile, such as managing employee data, managing project data, and managing company data.',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Robot Framework',
       'Postman',
@@ -378,7 +378,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the Sev2 website and mobile, such as managing task data and project',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Supabase',
       'Go',
@@ -391,7 +391,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the BSI Ktb Portal website, such as managing data vendor, managing Procurement data, and managing company data.',
     url: 'https://www.bsi.id/',
-    previewImage: ProjectWingie,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       '.NET',
       'C#',
@@ -403,7 +403,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the Tempo.co website, such as managing articles, managing user data, and managing company data.',
     url: 'https://www.tempo.co/',
-    previewImage: ProjectWingie,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Vue.js',
       'Go',
@@ -415,7 +415,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for managing the Events, such as managing employee data, managing project data, and managing company data.',
     url: '#',
-    previewImage: ProjectWingie,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Vue.js',
       'Go',
@@ -427,7 +427,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A mobile application for managing the Hanoman web and app mobile, which is a platform for managing the company\'s internal affairs.',
     url: '#',
-    previewImage: ProjectWingie,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'CI 3',
       'Flutter',
@@ -439,7 +439,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
     url: '#',
-    previewImage: ProjectFiskil,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'C#',
       '.NET',
@@ -451,7 +451,7 @@ export const PROJECTS: ProjectDetails[] = [
     description:
       'A platform for predicting stock prices using machine learning algorithms Fuzzy Mamdani, as well as providing a mask detection system to prevent the spread of COVID-19.',
     url: '#',
-    previewImage: ProjectPepehousing,
+    previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'Python',
       'Flask',
