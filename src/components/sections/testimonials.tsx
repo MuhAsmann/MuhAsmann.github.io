@@ -16,6 +16,7 @@ const TestimonialsSection = () => {
         </Typography>
       </div>
 
+      {/* TODO : Make carousel  */}
       <div className="flex gap-12 max-md:flex-col md:max-lg:flex-wrap">
         {TESTIMONIALS?.map((testimonial, index) => (
           <TestimonialDetails key={index} {...testimonial} />

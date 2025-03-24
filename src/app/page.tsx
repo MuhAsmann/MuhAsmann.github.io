@@ -14,6 +14,7 @@ export default function Home() {
       <SkillsSection />
       <ExperienceSection />
       <WorkSection />
+      {/* TODO: Sertification */}
       <TestimonialsSection />
       <ContactSection />
     </>
