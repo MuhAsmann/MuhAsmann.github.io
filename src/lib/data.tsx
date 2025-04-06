@@ -173,11 +173,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoPostgreSQL,
     url: 'https://www.postgresql.org/',
   },
-  {
-    label: 'MongoDB',
-    logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
-  },
+  // {
+  //   label: 'MongoDB',
+  //   logo: LogoMongoDB,
+  //   url: 'https://www.mongodb.com/',
+  // },
   {
     label: 'Sass/Scss',
     logo: LogoSass,
