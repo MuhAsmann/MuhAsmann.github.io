@@ -162,12 +162,12 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNest,
     url: 'https://nestjs.com/',
   },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
+  // {
+  //   label: 'Socket.io',
+  //   logo: LogoSocket,
+  //   darkModeLogo: LogoSocketLight,
+  //   url: 'https://socket.io/',
+  // },
   {
     label: 'PostgreSQL',
     logo: LogoPostgreSQL,
@@ -462,13 +462,13 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     testimonial:
       'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
   },
-  {
-    personName: 'Alaikal Fajri',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Asman was extremely easy and pleasant to work with and he truly cares about the project being a success. Asman has a high level of knowledge and was able to work on my MERN stack application without any issues.',
-  },
+  // {
+  //   personName: 'Alaikal Fajri',
+  //   personAvatar: AvatarDummy,
+  //   title: 'Freelancer',
+  //   testimonial:
+  //     'Asman was extremely easy and pleasant to work with and he truly cares about the project being a success. Asman has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+  // },
   {
     personName: 'Muisma',
     personAvatar: AvatarDummy,
