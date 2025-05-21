@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m I am an enthusiastic and highly motivated Computer Science graduate specializing in Fullstack Development and Mobile
+              I&apos;m an enthusiastic and highly motivated Computer Science graduate specializing in Fullstack Development and Mobile
               Application Development using Flutter. With a solid foundation in both front-end and back-end technologies, I have developed
               robust, scalable, and user-friendly applications. I am passionate about problem-solving and continuously learning new tools
               and technologies to stay current in the fast-evolving tech landscape. I am eager to bring my technical skills, attention to detail,
