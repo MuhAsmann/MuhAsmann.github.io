@@ -243,6 +243,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Postman',
     logo: LogoPostman,
     url: 'https://www.postman.com/',
+  },
+  {
+    label: 'Docker',
+    logo: 'https://www.vectorlogo.zone/logos/docker/docker-icon.svg',
+    url: 'https://www.docker.com/',
   }
 ];
 
