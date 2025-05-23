@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Sagar Shah And Enhanced by Asman',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     title,
     description,
     siteName: title,
-    images: [
-      {
-        url: '/images/open-graph-sagar.png',
-      },
-    ],
+    // images: [
+    //   {
+    //     url: '/images/open-graph-sagar.png',
+    //   },
+    // ],
   },
   twitter: {
     card: 'summary_large_image',
     title,
     description,
     creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
+    // images: '/images/open-graph-sagar.png',
   },
   icons: {
     icon: '/favicon.ico',
