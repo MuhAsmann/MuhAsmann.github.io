@@ -193,12 +193,12 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoFigma,
     url: 'https://www.figma.com/',
   },
-  // {
-  //   label: 'Cypress',
-  //   logo: LogoCypress,
-  //   darkModeLogo: LogoCypressLight,
-  //   url: 'https://www.cypress.io/',
-  // },
+  {
+    label: 'Cypress',
+    logo: LogoCypress,
+    darkModeLogo: LogoCypressLight,
+    url: 'https://www.cypress.io/',
+  },
   {
     label: 'Storybook',
     logo: LogoStorybook,
