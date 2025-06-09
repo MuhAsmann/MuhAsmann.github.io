@@ -162,12 +162,13 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNest,
     url: 'https://nestjs.com/',
   },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
+  // harammmm
+  // {
+  //   label: 'Socket.io',
+  //   logo: LogoSocket,
+  //   darkModeLogo: LogoSocketLight,
+  //   url: 'https://socket.io/',
+  // },
   {
     label: 'PostgreSQL',
     logo: LogoPostgreSQL,
