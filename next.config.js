@@ -7,8 +7,8 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: isDev ? '' : '/infomee',
-    assetPrefix: isDev ? '' : '/infomee',
+    basePath: isDev ? '' : '',
+    assetPrefix: isDev ? '' : '',
 }
 
 module.exports = nextConfig
