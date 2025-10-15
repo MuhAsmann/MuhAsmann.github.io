@@ -11,15 +11,15 @@
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/shahsagarm/sagarshah.dev.git
-$ cd sagarshah.dev
+$ git clone git@github.com:MuhAsmann/MuhAsmann.github.io.git
+$ cd MuhAsmann.github.io
 $ npm install
 $ npm run dev
 ```
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shahsagarm/sagarshah.dev/blob/main/LICENSE).
+Licensed under the [MIT license](https://github.com/MuhAsmann/MuhAsmann.github.io/blob/main/LICENSE).
 
 
-This portfolio is available on GitHub: [sagarshah.dev](https://github.com/shahsagarm/sagarshah.dev)
+This portfolio is available on GitHub: [sagarshah.dev](https://github.com/MuhAsmann/MuhAsmann.github.io)
