@@ -22,4 +22,4 @@ $ npm run dev
 Licensed under the [MIT license](https://github.com/MuhAsmann/MuhAsmann.github.io/blob/main/LICENSE).
 
 
-This portfolio is available on GitHub: [sagarshah.dev](https://github.com/MuhAsmann/MuhAsmann.github.io)
+This portfolio is available on GitHub: [MuhAsmann](https://github.com/MuhAsmann/MuhAsmann.github.io)
