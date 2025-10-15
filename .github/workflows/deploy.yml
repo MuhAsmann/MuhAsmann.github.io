@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main  # karena untuk user site, GitHub Pages ambil langsung dari main
+          publish_branch: gh-pages
           publish_dir: ./out
