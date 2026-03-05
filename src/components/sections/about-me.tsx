@@ -16,7 +16,7 @@ const AboutMeSection = () => {
 
       <div className="flex w-full flex-col justify-between gap-12 md:flex-row">
         {/* Image */}
-      <div className="flex justify-center md:order-first md:justify-end">
+        <div className="flex justify-center md:order-first md:justify-end">
           <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
             <Image
               src={FullBody}
@@ -33,49 +33,43 @@ const AboutMeSection = () => {
           <Typography variant="h3">
             Curious about me? Here you have it:
           </Typography>
+
           <Typography>
             I&apos;m a passionate,{' '}
             <Link
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
+              href={EXTERNAL_LINKS.GITHUB}
             >
-              Software Engineer
+              Backend-focused Software Engineer
             </Link>{' '}
-            who specializes in full stack development (Front End & Back End). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+            who enjoys building reliable and scalable systems. My main focus is backend
+            development using Go, designing clean architectures, and building APIs that
+            are performant, maintainable, and production-ready. While backend is my
+            primary expertise, I&apos;m also comfortable working across the stack when
+            needed.
           </Typography>
+
           <Typography>
-            I began my journey as a web developer in 2021, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 5 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+            I started my journey as a developer in 2021 and have since worked on
+            multiple full stack projects using technologies such as Go, .NET, NestJS,
+            Laravel, React, Vue, and Flutter. These experiences helped me understand
+            how systems work end-to-end — from backend services and APIs to the user
+            interface.
           </Typography>
+
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
+            Today, I focus on building backend services with clean architecture,
+            efficient database design, and scalable infrastructure. I care deeply about
+            writing simple, readable code and designing systems that can grow with the
+            product.
           </Typography>
+
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on instagramm, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.INSTAGRAM}
-            >
-              Instagram
-            </Link>{' '}
-            where I share tech-related bites and build in public, or you can
-            follow me on{' '}
+            Outside of coding, I enjoy exploring new technologies, improving my backend
+            engineering skills, and sharing my learning journey. You can follow my work
+            on{' '}
             <Link
               noCustomization
               externalLink
@@ -83,24 +77,32 @@ const AboutMeSection = () => {
               href={EXTERNAL_LINKS.GITHUB}
             >
               GitHub
-            </Link>
-            .
+            </Link>{' '}
+            where I share projects, experiments, and things I learn along the way.
           </Typography>
+
           <Typography>Finally, some quick bits about me.</Typography>
+
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.E. in Computer Engineering
+                B.E. in Informatics / Computer Engineering
               </Typography>
-              <Typography component="li">Full time freelancer</Typography>
+              <Typography component="li">
+                Backend-focused engineer (Go)
+              </Typography>
             </ul>
+
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
+              <Typography component="li">Full-stack capable</Typography>
+              <Typography component="li">Always learning</Typography>
             </ul>
           </div>
+
           <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
+            I&apos;m currently open to freelance opportunities and collaboration. If you&apos;re
+            building something interesting or need help with backend systems or
+            full-stack applications, feel free to reach out!
           </Typography>
         </div>
       </div>

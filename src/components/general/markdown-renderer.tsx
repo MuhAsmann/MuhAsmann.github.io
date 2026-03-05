@@ -62,7 +62,7 @@ export default function MarkdownRenderer({ content }: MarkdownRendererProps) {
                 parts.push(
                     <strong
                         key={`bold-${partKey++}`}
-                        className="glow-text font-semibold text-blue-600 dark:text-blue-400"
+                        className="glow-text font-semibold text-blue-600 dark:text-blue-800"
                     >
                         {match[1]}
                     </strong>

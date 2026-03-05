@@ -66,6 +66,10 @@ export const NAV_LINKS = [
     href: '#work',
   },
   {
+    label: 'Blog',
+    href: '#blog',
+  },
+  {
     label: 'Testimonials',
     href: '#testimonials',
   },
@@ -312,12 +316,24 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Calestium Digital - Dashboard Satu Sehat - Front End Developer',
     description:
-    'A platform for managing the Dashboard Satu Sehat website, such as managing death data, with chart',
+      'A platform for managing the Dashboard Satu Sehat website, such as managing death data, with chart',
     url: '#',
     previewImage: 'https://picsum.photos/969/727',
     technologies: [
       'React',
       'Postman',
+    ],
+  },
+  {
+    name: 'Refactory - Tempo.co - Fullstack Developer',
+    description:
+      'A platform for managing the Tempo.co website, such as managing articles, managing user data, and managing company data.',
+    url: 'https://www.tempo.co/',
+    previewImage: 'https://picsum.photos/969/727',
+    technologies: [
+      'Vue.js',
+      'Go',
+      'PostgreSQL',
     ],
   },
   {
@@ -358,7 +374,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Refactory - Mytok MPM HRIS - QA Engineer',
     description:
-    'A platform for managing the Mytok mobile, such as managing employee data, managing project data, and managing company data.',
+      'A platform for managing the Mytok mobile, such as managing employee data, managing project data, and managing company data.',
     url: '#',
     previewImage: 'https://picsum.photos/969/727',
     technologies: [
@@ -389,18 +405,6 @@ export const PROJECTS: ProjectDetails[] = [
       '.NET',
       'C#',
       'Sql Server',
-    ],
-  },
-  {
-    name: 'Refactory - Tempo.co - Fullstack Developer',
-    description:
-      'A platform for managing the Tempo.co website, such as managing articles, managing user data, and managing company data.',
-    url: 'https://www.tempo.co/',
-    previewImage: 'https://picsum.photos/969/727',
-    technologies: [
-      'Vue.js',
-      'Go',
-      'PostgreSQL',
     ],
   },
   {

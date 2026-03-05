@@ -27,7 +27,7 @@ const BlogSection = () => {
                     <Link
                         key={post.id}
                         href={`/blog/${post.id}`}
-                        className="blog-card group block rounded-xl border border-gray-200 bg-white p-6 hover:border-blue-400 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-blue-500"
+                        className="blog-card group block rounded-xl border border-gray-200 dark:bg-gray-100 p-6 hover:border-blue-400 dark:hover:border-blue-500"
                     >
                         {/* Tags */}
                         <div className="mb-4 flex flex-wrap gap-2">
@@ -44,7 +44,7 @@ const BlogSection = () => {
                         {/* Title */}
                         <Typography
                             variant="h3"
-                            className="mb-3 text-xl font-semibold transition-colors group-hover:text-blue-600 dark:group-hover:text-blue-400"
+                            className="mb-3 text-xl text-gray-900 font-semibold transition-colors group-hover:text-blue-600 dark:group-hover:text-blue-400"
                         >
                             {post.title}
                         </Typography>
