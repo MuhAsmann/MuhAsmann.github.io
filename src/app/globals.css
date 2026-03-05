@@ -32,3 +32,98 @@
   --app-gray-900: 249 250 251;
   --app-gray-950: 255 255 255;
 }
+
+/* Glow Effects */
+.glow-text {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6, 0 0 15px #3b82f6;
+  }
+  to {
+    text-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6, 0 0 40px #3b82f6;
+  }
+}
+
+.glow-text-green {
+  animation: glow-green 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow-green {
+  from {
+    text-shadow: 0 0 5px #10b981, 0 0 10px #10b981, 0 0 15px #10b981;
+  }
+  to {
+    text-shadow: 0 0 10px #10b981, 0 0 20px #10b981, 0 0 30px #10b981, 0 0 40px #10b981;
+  }
+}
+
+.glow-text-purple {
+  animation: glow-purple 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow-purple {
+  from {
+    text-shadow: 0 0 5px #8b5cf6, 0 0 10px #8b5cf6, 0 0 15px #8b5cf6;
+  }
+  to {
+    text-shadow: 0 0 10px #8b5cf6, 0 0 20px #8b5cf6, 0 0 30px #8b5cf6, 0 0 40px #8b5cf6;
+  }
+}
+
+/* Blog Card Hover Effects */
+.blog-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dark .blog-card:hover {
+  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+}
+
+/* Blog Content Styles */
+.blog-content h1 {
+  @apply text-3xl md:text-4xl font-bold text-gray-900 mt-8 mb-4;
+}
+
+.blog-content h2 {
+  @apply text-2xl md:text-3xl font-semibold text-gray-900 mt-6 mb-3;
+}
+
+.blog-content h3 {
+  @apply text-xl md:text-2xl font-semibold text-gray-900 mt-5 mb-2;
+}
+
+.blog-content p {
+  @apply text-base md:text-lg text-gray-600 mb-4 leading-relaxed;
+}
+
+.blog-content ul, .blog-content ol {
+  @apply ml-6 mb-4 text-gray-600;
+}
+
+.blog-content li {
+  @apply mb-2;
+}
+
+.blog-content strong {
+  @apply font-semibold text-gray-900;
+}
+
+.blog-content code {
+  @apply bg-gray-100 px-2 py-1 rounded text-sm font-mono text-gray-800;
+}
+
+.blog-content pre {
+  @apply bg-gray-100 p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.blog-content blockquote {
+  @apply border-l-4 border-blue-500 pl-4 italic text-gray-600 my-4;
+}

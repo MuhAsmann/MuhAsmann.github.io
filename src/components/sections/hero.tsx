@@ -31,11 +31,16 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m an enthusiastic and highly motivated Computer Science graduate specializing in Fullstack Development and Mobile
-              Application Development using Flutter. With a solid foundation in both front-end and back-end technologies, I have developed
-              robust, scalable, and user-friendly applications. I am passionate about problem-solving and continuously learning new tools
-              and technologies to stay current in the fast-evolving tech landscape. I am eager to bring my technical skills, attention to detail,
-              and dedication to a dynamic development team.
+              I’m a backend-focused Software Engineer with experience building scalable web and mobile applications.
+              My primary focus is backend development using Go, where I enjoy designing clean architectures, building
+              reliable APIs, and creating systems that are efficient and maintainable.
+
+              I have worked on multiple full-stack projects using technologies such as Go, .NET, NestJS, Laravel, React,
+              Vue, and Flutter, which allows me to understand how systems work end-to-end. This experience helps me design
+              backend services that integrate well with modern front-end and mobile applications.
+
+              I’m passionate about solving real-world problems through software, continuously improving my engineering
+              skills, and learning better ways to build scalable and maintainable systems.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
