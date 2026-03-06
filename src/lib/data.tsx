@@ -260,7 +260,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: LogoGanesha,
     logoAlt: 'Ganesha Operation Logo',
-    position: 'Staf Pusat Backend Developer',
+    position: 'Backend Developer',
     startDate: new Date(2024, 10),
     currentlyWorkHere: true,
     summary: [
