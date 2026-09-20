@@ -42,34 +42,31 @@ const AboutMeSection = () => {
               withUnderline
               href={EXTERNAL_LINKS.GITHUB}
             >
-              Backend-focused Software Engineer
+              Backend Engineer
             </Link>{' '}
-            who enjoys building reliable and scalable systems. My main focus is backend
-            development using Go, designing clean architectures, and building APIs that
-            are performant, maintainable, and production-ready. While backend is my
-            primary expertise, I&apos;m also comfortable working across the stack when
-            needed.
+            with 3 years of experience building microservices in Go, NestJS, and .NET.
+            I currently serve as Head of Backend Development Section at Ganesha Operation,
+            where I set technical direction across dozens of services while staying hands-on
+            with critical production issues and major features.
           </Typography>
 
           <Typography>
-            I started my journey as a developer in 2021 and have since worked on
-            multiple full stack projects using technologies such as Go, .NET, NestJS,
-            Laravel, React, Vue, and Flutter. These experiences helped me understand
-            how systems work end-to-end — from backend services and APIs to the user
-            interface.
+            My work spans distributed systems, gRPC, RabbitMQ, WebSocket, and asynchronous
+            processing. I focus on translating business requirements into maintainable backend
+            solutions built with Clean Architecture principles. I&apos;ve delivered backend modules
+            for leave management, student progress reporting, marketing and sales data, payments,
+            and other operational processes at scale.
           </Typography>
 
           <Typography>
-            Today, I focus on building backend services with clean architecture,
-            efficient database design, and scalable infrastructure. I care deeply about
-            writing simple, readable code and designing systems that can grow with the
-            product.
+            Beyond backend, I have hands-on experience with React.js, Vue.js, and Flutter (BLoC),
+            which gives me a solid end-to-end understanding of how systems work — from backend
+            services and APIs down to the user interface and mobile apps.
           </Typography>
 
           <Typography>
-            Outside of coding, I enjoy exploring new technologies, improving my backend
-            engineering skills, and sharing my learning journey. You can follow my work
-            on{' '}
+            Outside of work, I enjoy exploring new technologies, improving my engineering skills,
+            and contributing to interesting projects. You can follow my work on{' '}
             <Link
               noCustomization
               externalLink
@@ -78,7 +75,7 @@ const AboutMeSection = () => {
             >
               GitHub
             </Link>{' '}
-            where I share projects, experiments, and things I learn along the way.
+            where I share projects and experiments.
           </Typography>
 
           <Typography>Finally, some quick bits about me.</Typography>
@@ -86,23 +83,23 @@ const AboutMeSection = () => {
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.E. in Informatics / Computer Engineering
+                B.Sc. in Informatics — Universitas Alma Ata (GPA 3.83/4.00)
               </Typography>
               <Typography component="li">
-                Backend-focused engineer (Go)
+                Go · NestJS · .NET · Microservices
               </Typography>
             </ul>
 
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Full-stack capable</Typography>
-              <Typography component="li">Always learning</Typography>
+              <Typography component="li">gRPC · RabbitMQ · WebSocket</Typography>
+              <Typography component="li">PostgreSQL · Redis · Docker</Typography>
             </ul>
           </div>
 
           <Typography>
-            I&apos;m currently open to freelance opportunities and collaboration. If you&apos;re
-            building something interesting or need help with backend systems or
-            full-stack applications, feel free to reach out!
+            I&apos;m open to new opportunities and interesting collaborations. If you&apos;re
+            building something ambitious or need a backend engineer who can own systems
+            end-to-end, feel free to reach out!
           </Typography>
         </div>
       </div>

@@ -31,22 +31,17 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I’m a backend-focused Software Engineer with experience building scalable web and mobile applications.
-              My primary focus is backend development using Go, where I enjoy designing clean architectures, building
-              reliable APIs, and creating systems that are efficient and maintainable.
-
-              I have worked on multiple full-stack projects using technologies such as Go, .NET, NestJS, Laravel, React,
-              Vue, and Flutter, which allows me to understand how systems work end-to-end. This experience helps me design
-              backend services that integrate well with modern front-end and mobile applications.
-
-              I’m passionate about solving real-world problems through software, continuously improving my engineering
-              skills, and learning better ways to build scalable and maintainable systems.
+              Backend Engineer with 3 years of experience building microservices in Go, NestJS, and .NET.
+              Currently Head of Backend Development Section at Ganesha Operation, setting technical direction
+              across dozens of services while staying hands-on with critical production issues and major features.
+              Strong in gRPC, RabbitMQ, WebSocket, and asynchronous processing, with experience translating
+              business requirements into maintainable backend solutions.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Yogyakarta, Indonesia</Typography>
+              <Typography>Bandung, Indonesia</Typography>
             </div>
 
             <div className="flex items-center gap-2">
