@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={Profile}
-              alt="Headshot of Sagar"
+              alt="Headshot of Muhammad Asman"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: 'cover' }}
             ></Image>
@@ -31,22 +31,17 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I’m a backend-focused Software Engineer with experience building scalable web and mobile applications.
-              My primary focus is backend development using Go, where I enjoy designing clean architectures, building
-              reliable APIs, and creating systems that are efficient and maintainable.
-
-              I have worked on multiple full-stack projects using technologies such as Go, .NET, NestJS, Laravel, React,
-              Vue, and Flutter, which allows me to understand how systems work end-to-end. This experience helps me design
-              backend services that integrate well with modern front-end and mobile applications.
-
-              I’m passionate about solving real-world problems through software, continuously improving my engineering
-              skills, and learning better ways to build scalable and maintainable systems.
+              I&apos;m a Full Stack Developer with a strong backend engineering foundation.
+              I build web and mobile applications and the services behind them, using Go,
+              NestJS, and .NET on the backend and React.js, Vue.js, and Flutter on the client
+              side. Currently I lead backend development at Ganesha Operation while staying
+              hands-on with major features and production issues.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Yogyakarta, Indonesia</Typography>
+              <Typography>Bandung, Indonesia</Typography>
             </div>
 
             <div className="flex items-center gap-2">

@@ -15,6 +15,237 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
     {
+        id: 'connecting-go-apis-to-react-and-flutter',
+        title: 'Connecting High-Performance Go APIs to React & Flutter Frontends',
+        excerpt: 'A comprehensive guide to architecting full-stack systems: designing clean REST and WebSocket contracts in Go, consuming them efficiently in React.js and Flutter (BLoC), and avoiding common pitfalls in production.',
+        date: '2024-03-22',
+        readTime: '11 min read',
+        tags: ['Full Stack', 'Go', 'React', 'Flutter', 'WebSockets'],
+        author: {
+            name: 'Muhammad Asman',
+            avatar: '/images/closeup.jpeg',
+        },
+        content: `
+# Connecting High-Performance Go APIs to React & Flutter Frontends
+
+As a Full Stack Developer with a strong backend foundation, one of the most rewarding architectures I've worked with is pairing **Go** on the backend with **React.js** for web dashboards and **Flutter** for cross-platform mobile apps.
+
+Go provides unmatched concurrency, minimal memory footprint, and rapid execution. Meanwhile, React and Flutter offer rich, reactive user experiences. In this article, I will walk you through the end-to-end design patterns for building robust full-stack systems with this modern stack.
+
+---
+
+## 1. Establishing Type-Safe API Contracts
+
+A successful full-stack application begins with a well-defined API contract. When building services in Go that must be consumed by both web (TypeScript/React) and mobile (Dart/Flutter), strict contract enforcement prevents client-side deserialization bugs.
+
+### Consistent JSON Response Envelopes
+
+Every Go endpoint should return a predictable envelope:
+
+\`\`\`go
+type ResponseEnvelope struct {
+    Success bool        \`json:"success"\`
+    Data    interface{} \`json:"data,omitempty"\`
+    Message string      \`json:"message,omitempty"\`
+    Error   *APIError   \`json:"error,omitempty"\`
+}
+
+type APIError struct {
+    Code    string \`json:"code"\`
+    Details string \`json:"details,omitempty"\`
+}
+\`\`\`
+
+By maintaining this standard, both React and Flutter client repositories can reuse generic HTTP interception and error-handling utilities.
+
+---
+
+## 2. The Go Backend: Clean Architecture & Streaming
+
+In Go, we organize services into distinct layers:
+1. **Transport / Handler**: Parses HTTP requests or WebSocket frames, validates inputs, and writes HTTP responses.
+2. **Usecase / Domain Service**: Encapsulates core business logic independent of external frameworks.
+3. **Repository**: Interacts with PostgreSQL, Redis, or RabbitMQ.
+
+### High-Throughput REST Handler Example
+
+\`\`\`go
+func (h *ReportHandler) GetStudentReport(c *gin.Context) {
+    studentID := c.Param("id")
+    ctx := c.Request.Context()
+
+    report, err := h.reportUsecase.GetSummary(ctx, studentID)
+    if err != nil {
+        c.JSON(http.StatusInternalServerError, ResponseEnvelope{
+            Success: false,
+            Error:   &APIError{Code: "INTERNAL_ERROR", Details: err.Error()},
+        })
+        return
+    }
+
+    c.JSON(http.StatusOK, ResponseEnvelope{
+        Success: true,
+        Data:    report,
+    })
+}
+\`\`\`
+
+---
+
+## 3. Consuming Go APIs in React.js
+
+On the React client, type definitions mirror the Go structs to provide complete compile-time safety.
+
+### TypeScript Definition
+
+\`\`\`typescript
+interface StudentReport {
+  id: string;
+  name: string;
+  scores: Record<string, number>;
+  attendanceRate: number;
+}
+
+interface ApiResponse<T> {
+  success: boolean;
+  data?: T;
+  message?: string;
+  error?: { code: string; details?: string };
+}
+\`\`\`
+
+### Custom React Hook with React Query
+
+\`\`\`tsx
+import { useQuery } from '@tanstack/react-query';
+
+export const useStudentReport = (studentId: string) => {
+  return useQuery<StudentReport, Error>({
+    queryKey: ['student-report', studentId],
+    queryFn: async () => {
+      const response = await fetch('/api/v1/students/' + studentId + '/report');
+      const result: ApiResponse<StudentReport> = await response.json();
+      
+      if (!result.success || !result.data) {
+        throw new Error(result.error?.details || 'Failed to fetch report');
+      }
+      
+      return result.data;
+    },
+    staleTime: 5 * 60 * 1000, // 5 minutes
+  });
+};
+\`\`\`
+
+---
+
+## 4. Consuming Go APIs in Flutter with BLoC
+
+For mobile apps, predictability and lifecycle management are essential. Using **BLoC (Business Logic Component)** allows us to isolate presentation from API communication.
+
+### Dart Model & Repository
+
+\`\`\`dart
+class ReportRepository {
+  final http.Client client;
+  final String baseUrl;
+
+  ReportRepository({required this.client, required this.baseUrl});
+
+  Future<StudentReport> fetchReport(String studentId) async {
+    final response = await client.get(
+      Uri.parse('$baseUrl/api/v1/students/$studentId/report'),
+      headers: {'Accept': 'application/json'},
+    );
+
+    if (response.statusCode == 200) {
+      final jsonMap = jsonDecode(response.body);
+      if (jsonMap['success'] == true) {
+        return StudentReport.fromJson(jsonMap['data']);
+      }
+    }
+    throw Exception('Failed to load student report');
+  }
+}
+\`\`\`
+
+### BLoC State Management
+
+\`\`\`dart
+class ReportBloc extends Bloc<ReportEvent, ReportState> {
+  final ReportRepository repository;
+
+  ReportBloc({required this.repository}) : super(ReportInitial()) {
+    on<LoadReport>((event, emit) async {
+      emit(ReportLoading());
+      try {
+        final report = await repository.fetchReport(event.studentId);
+        emit(ReportLoaded(report));
+      } catch (e) {
+        emit(ReportError(e.toString()));
+      }
+    });
+  }
+}
+\`\`\`
+
+---
+
+## 5. Real-Time Synchronization via WebSockets
+
+When delivering live features—such as real-time notifications, interactive quiz games, or live data dashboards—HTTP polling is insufficient.
+
+In Go, we run a centralized WebSocket Hub utilizing native sockets:
+
+\`\`\`go
+type Hub struct {
+    clients    map[*Client]bool
+    broadcast  chan []byte
+    register   chan *Client
+    unregister chan *Client
+}
+
+func (h *Hub) Run() {
+    for {
+        select {
+        case client := <-h.register:
+            h.clients[client] = true
+        case client := <-h.unregister:
+            if _, ok := h.clients[client]; ok {
+                delete(h.clients, client)
+                close(client.send)
+            }
+        case message := <-h.broadcast:
+            for client := range h.clients {
+                select {
+                case client.send <- message:
+                default:
+                    close(client.send)
+                    delete(h.clients, client)
+                }
+            }
+        }
+    }
+}
+\`\`\`
+
+On the client side:
+- **React**: Manages a shared WebSocket hook with auto-reconnect, updating state and invalidating React Query caches upon incoming message events.
+- **Flutter**: Listens to a WebSocket channel stream within a dedicated WebSocketBloc or repository, emitting real-time state updates to the UI smoothly.
+
+---
+
+## 6. Key Takeaways from Production
+
+1. **Keep Payloads Lean**: Avoid transmitting redundant nested data. Both mobile bandwidth and server throughput benefit significantly from concise models.
+2. **Leverage Go Concurrency**: Use worker pools and goroutines for background aggregations, keeping API response latency under 50ms.
+3. **Decouple Business Logic from Transport**: Clean Architecture allows switching transport protocols (REST to gRPC or WebSockets) without rewriting domain rules.
+4. **Treat Error Handling as a First-Class Citizen**: When client apps receive structured error codes, they can display user-friendly contextual messages rather than generic failure alerts.
+
+By combining the strengths of Go, React, and Flutter, engineering teams can build scalable, unified digital platforms that perform exceptionally on both web and mobile.
+        `,
+    },
+    {
         id: 'building-scalable-applications',
         title: 'Building Scalable Applications with Next.js and TypeScript',
         excerpt: 'Learn how to architect and build production-ready applications that can handle millions of users with modern web technologies.',

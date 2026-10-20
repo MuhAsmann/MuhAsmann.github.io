@@ -20,7 +20,7 @@ const AboutMeSection = () => {
           <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
             <Image
               src={FullBody}
-              alt="Fullpose of Sagar"
+              alt="Fullpose of Muhammad Asman"
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: 'cover' }}
             ></Image>
@@ -35,50 +35,21 @@ const AboutMeSection = () => {
           </Typography>
 
           <Typography>
-            I&apos;m a passionate,{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              Backend-focused Software Engineer
-            </Link>{' '}
-            who enjoys building reliable and scalable systems. My main focus is backend
-            development using Go, designing clean architectures, and building APIs that
-            are performant, maintainable, and production-ready. While backend is my
-            primary expertise, I&apos;m also comfortable working across the stack when
-            needed.
+            I&apos;m a Full Stack Developer who started out as a backend engineer. My core strength
+            is designing and building reliable APIs and microservices in Go, NestJS, and .NET,
+            backed by PostgreSQL, Redis, and RabbitMQ.
           </Typography>
 
           <Typography>
-            I started my journey as a developer in 2021 and have since worked on
-            multiple full stack projects using technologies such as Go, .NET, NestJS,
-            Laravel, React, Vue, and Flutter. These experiences helped me understand
-            how systems work end-to-end — from backend services and APIs to the user
-            interface.
+            I&apos;ve also worked on the client side: a React.js dashboard for the SATUSEHAT program,
+            Vue.js and Razor interfaces, and a Flutter (BLoC) mobile app. That helps me design
+            services that are easy for frontend and mobile apps to consume.
           </Typography>
 
           <Typography>
-            Today, I focus on building backend services with clean architecture,
-            efficient database design, and scalable infrastructure. I care deeply about
-            writing simple, readable code and designing systems that can grow with the
-            product.
-          </Typography>
-
-          <Typography>
-            Outside of coding, I enjoy exploring new technologies, improving my backend
-            engineering skills, and sharing my learning journey. You can follow my work
-            on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
-            </Link>{' '}
-            where I share projects, experiments, and things I learn along the way.
+            Today I&apos;m Head of Backend Development Section at Ganesha Operation, setting technical
+            direction across dozens of microservices and still writing code for critical features.
+            I enjoy turning business requirements into maintainable software, end to end.
           </Typography>
 
           <Typography>Finally, some quick bits about me.</Typography>
@@ -86,16 +57,18 @@ const AboutMeSection = () => {
           <div className="flex flex-col gap-2 md:flex-row md:gap-6">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                B.E. in Informatics / Computer Engineering
+                Bachelor of Computer Science (S.Kom), Universitas Alma Ata
               </Typography>
               <Typography component="li">
-                Backend-focused engineer (Go)
+                Full Stack Developer, strong backend (Go)
               </Typography>
             </ul>
 
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Full-stack capable</Typography>
-              <Typography component="li">Always learning</Typography>
+              <Typography component="li">
+                Web and mobile (React.js, Vue.js, Flutter)
+              </Typography>
+              <Typography component="li">Available for new projects</Typography>
             </ul>
           </div>
 

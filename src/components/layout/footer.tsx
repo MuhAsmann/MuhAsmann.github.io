@@ -28,7 +28,7 @@ const Footer = () => {
           >
             coded
           </Link>
-          &nbsp;with ❤️️ by Sagar Shah And Enhance By Me
+          &nbsp;with ❤️️ by Muhammad Asman
         </Typography>
       </div>
     </footer>

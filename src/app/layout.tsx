@@ -9,20 +9,23 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Muhammad Asman | Software Engineer From Yogyakarta, Indonesia.';
+const title = 'Muhammad Asman | Full Stack Developer (Go, NestJS, React.js)';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://muhasmann.github.id/infomee';
+  'Full Stack Developer with a strong backend foundation. I build web and mobile applications and the services behind them with Go, NestJS, .NET, React.js, Vue.js, and Flutter. Based in Bandung, Indonesia.';
+const url = 'https://muhasmann.github.io';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
   keywords: [
-    'Frontend Developer',
     'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
+    'Backend Developer',
+    'Go',
+    'NestJS',
+    '.NET',
+    'React.js',
+    'Vue.js',
   ],
   creator: 'Muhammad Asman',
   themeColor: [
@@ -45,7 +48,6 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title,
     description,
-    creator: '@shahsagarm',
     // images: '/images/open-graph-sagar.png',
   },
   icons: {
