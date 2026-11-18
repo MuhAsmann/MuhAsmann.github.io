@@ -1,0 +1,52 @@
+<svg width="969" height="727" viewBox="0 0 969 727" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="969" height="727" rx="16" fill="#0F172A" />
+  <!-- Browser Frame -->
+  <rect x="24" y="24" width="921" height="679" rx="12" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+  <circle cx="56" cy="52" r="6" fill="#EF4444"/>
+  <circle cx="76" cy="52" r="6" fill="#F59E0B"/>
+  <circle cx="96" cy="52" r="6" fill="#10B981"/>
+  <rect x="130" y="42" width="500" height="20" rx="6" fill="#0F172A"/>
+  <text x="145" y="56" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#94A3B8">https://system-design-zeta-two.vercel.app</text>
+
+  <!-- Content Banner -->
+  <rect x="56" y="90" width="857" height="110" rx="8" fill="#0D9488" fill-opacity="0.15" stroke="#2DD4BF" stroke-opacity="0.3"/>
+  <text x="80" y="136" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#2DD4BF">JALUR SISTEM</text>
+  <text x="80" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#E2E8F0">Learn System Design Through Interactive Isometric Diagrams</text>
+
+  <!-- Request Paths -->
+  <g stroke="#2DD4BF" stroke-width="3" stroke-dasharray="8 8">
+    <path d="M180 300L350 385L520 470"/>
+    <path d="M520 470L720 370"/>
+    <path d="M520 470L720 570"/>
+  </g>
+
+  <!-- Student -->
+  <path d="M110 300L180 335V363L110 328Z" fill="#1D4ED8"/>
+  <path d="M250 300L180 335V363L250 328Z" fill="#1E40AF"/>
+  <path d="M180 265L250 300L180 335L110 300Z" fill="#3B82F6"/>
+  <text x="180" y="305" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Student</text>
+
+  <!-- Load Balancer -->
+  <path d="M280 385L350 420V448L280 413Z" fill="#B45309"/>
+  <path d="M420 385L350 420V448L420 413Z" fill="#92400E"/>
+  <path d="M350 350L420 385L350 420L280 385Z" fill="#F59E0B"/>
+  <text x="350" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#0F172A">Load Balancer</text>
+
+  <!-- App Server -->
+  <path d="M450 470L520 505V533L450 498Z" fill="#0F766E"/>
+  <path d="M590 470L520 505V533L590 498Z" fill="#115E59"/>
+  <path d="M520 435L590 470L520 505L450 470Z" fill="#14B8A6"/>
+  <text x="520" y="475" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#0F172A">App Server</text>
+
+  <!-- Cache -->
+  <path d="M650 370L720 405V433L650 398Z" fill="#BE123C"/>
+  <path d="M790 370L720 405V433L790 398Z" fill="#9F1239"/>
+  <path d="M720 335L790 370L720 405L650 370Z" fill="#F43F5E"/>
+  <text x="720" y="375" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Cache</text>
+
+  <!-- Database -->
+  <path d="M650 570L720 605V633L650 598Z" fill="#6D28D9"/>
+  <path d="M790 570L720 605V633L790 598Z" fill="#5B21B6"/>
+  <path d="M720 535L790 570L720 605L650 570Z" fill="#8B5CF6"/>
+  <text x="720" y="575" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF">Database</text>
+</svg>
