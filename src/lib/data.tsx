@@ -301,6 +301,19 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: 'Jalur Sistem - Interactive System Design Course',
+    description:
+      'A bilingual (Indonesian and English) learning site that teaches system design through interactive isometric diagrams. Ten lessons follow an online tryout app as a case study, covering load balancing, caching, CDN, database replication, sharding, queues, pub/sub, rate limiting, and circuit breakers.',
+    url: 'https://system-design-zeta-two.vercel.app/',
+    previewImage: '/images/projects/project-jalur-sistem.svg',
+    technologies: [
+      'React',
+      'SVG',
+      'System Design',
+      'Vercel',
+    ],
+  },
+  {
     name: 'Tempo.co - Full Stack Developer',
     description:
       'A platform for managing the Tempo.co news portal, such as managing articles, multimedia content, and company data. Built high-performance backend APIs with Go and interactive frontend views with Vue.js.',
